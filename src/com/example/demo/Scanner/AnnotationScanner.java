@@ -14,6 +14,7 @@ public class AnnotationScanner {
             AutoWired anno=cls.getAnnotation(AutoWired.class);
             if(anno!=null){
                 System.out.println(anno.value());
+                System.out.println(anno.value());
             }
         }
     }
